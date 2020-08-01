@@ -14,6 +14,7 @@ main.wasm: main.rs
 
 run: main.wasm
 	wasmtime main.wasm
+	wasmer main.wasm
 
 clean:
 	rm main.wasm
